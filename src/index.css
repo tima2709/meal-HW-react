@@ -11,3 +11,109 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 15px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.meals-name {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.meal{
+  padding: 10px;
+  background-color: darkgrey;
+  width: 200px;
+}
+
+.img-meal {
+  width: 100%;
+}
+
+.info-meal {
+  display: flex;
+  padding: 15px;
+  gap: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+span {
+  color: #933030;
+  font-weight: bold;
+}
+
+button {
+  background-color: rgba(126,7,7,0.9);
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin-top: 0px;
+  margin-bottom: 20p;
+}
+.ingredients{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.items-ingredient {
+  display: flex;
+}
+
+.from-ingredient{
+  width: 200px;
+  padding: 15px;
+}
+
+.from-ingredient img{
+  width: 100%
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.col-5 {
+  padding: 0 15px;
+  width: 41.66%;
+}
+
+.col-7 {
+  padding: 0 15px;
+  width: 58.33%;
+}
+
+.col-4 {
+  padding: 0 15px;
+  width: 25%;
+}
+
+.box img {
+  width: 100%;
+}
+
